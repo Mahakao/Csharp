@@ -1,0 +1,11 @@
+//deklaracja tablicy oraz inicjaliacja elementów 
+            int[] tab = { 4, 2, 55, 4, 8 };
+            //deklaracja zmiennej
+            int sum = 0;
+            //zsumowanie elementow z tablicy
+            for (int i = 0; i < tab.GetLength(0); i++)
+                sum += tab[i];
+            //wyswietlenie wyniku
+            Console.Write(sum);
+            
+            Console.ReadLine();

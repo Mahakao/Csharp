@@ -1,0 +1,57 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace powTable
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            for (int i = 1; i < 11; ++i)
+            {
+                for (int j = 1; j < 11; ++j)
+                {
+
+                    //omijamy kolumnę 4
+                    //if (j == 4)
+                    //{
+                    //    continue;
+                    //}
+
+                    //omijamy wiersz 4
+                    //if (i == 4)
+                    //{
+                    //    continue;
+                    //}
+
+
+                    //wypisanie samego wyniku bez formatowania
+                    Console.Write(i * j);
+
+                    //wypisanie działania z wynikiem, proste formatowanie
+                    //Console.Write("{0}*{1}={2}   ", i, j, i * j);
+
+
+
+                    //wypisanie działania z wynikiem, formatowanie w postaci tabulatora \t
+                    //Console.Write("{0}*{1}={2} \t", i, j, i * j);
+
+                    //wypisanie działania z wynikiem, formatowanie  z użyciem Pad.Right PadRight (maksymalna ilość znaków. dopełnienie jakim znakiem)
+                    //string dzialanie = string.Format("{0}*{1}={2}", i, j, i * j);
+                    //dzialanie = dzialanie.PadRight(11, ' ');  jeżeli chcemy dopełnić PadRight spacjami nie musimy dawać ' '. Spacja jest domyślnym znakiem.
+
+                    //Console.Write(dzialanie);
+
+                }
+                Console.WriteLine();
+
+            }
+            Console.ReadLine();
+
+        }
+    }
+}

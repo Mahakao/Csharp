@@ -1,0 +1,17 @@
+1. Napisać kalkulator, który pozwoli na wykonanie 5 operacji z rzędu.
+
+2. napisać program wyświetljący choinkę w następujący sposób:
+
+
+   *   
+  ***
+ *****
+*******
+
+można też poćwiczyć i zrobić coś takiego
+
+******
+*    *
+*    *
+******
+

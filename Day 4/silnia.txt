@@ -1,0 +1,19 @@
+            //deklaracja zmiennej
+            int silnia;
+            //inicjalizacja wartoœci
+            Console.Write("podaj wielkoœæ silni: ");
+            silnia = int.Parse(Console.ReadLine());
+            //deklaracja tablicy oraz deklaracja iloœci elementów 
+            int[] tab = new int[silnia];
+            //inicjalizacja 1 elementu
+            tab[0] = 1;
+            //inicjalizacja poszczególnych etapów silni 
+            for (int i = 1; i < tab.GetLength(0); i++)
+                tab[i] = (i + 1) * tab[i - 1];
+            //wypisanie elementów
+            foreach(int l in tab)
+            {
+                Console.WriteLine(l);
+            }
+            
+            Console.ReadLine();

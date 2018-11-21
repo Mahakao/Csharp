@@ -1,0 +1,9 @@
+1. Napisz program, który bêdzie zapisywa³ liczby podzielne przez 2 w tablicy. Przedzia³ od 0 do n-liczba pobrana od u¿ytkownika
+2. Napisz program, który obliczy œredni¹ na podstawie liczb zawartych w tablicy. tablica wype³niona losowymi liczbami.
+3. Napisz program zliczaj¹cy liczbê liter w zdaniu. Program napisz przy u¿yciu tablic na podstawie zdania "ala ma kota"
+a:4
+k:1
+l:1
+m:1
+o:1
+t:1

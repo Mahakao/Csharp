@@ -1,0 +1,21 @@
+            //deklaracja tablicy oraz inicjaliacja elementów 
+            int[] tab = { 4, 2, 55, 4, 8 };
+            //sortowaanie
+            for(int i=0;i<tab.GetLength(0);i++)
+                for(int j = i; j < tab.GetLength(0); j++)
+                {
+                    if(tab[i]>tab[j])
+                    {
+                        int z = tab[i];
+                        tab[i] = tab[j];
+                        tab[j] = z;
+                    }
+                    
+                }
+            //wyœwietlenie posortowanych elementów
+            foreach(int l in tab)
+            {
+                Console.Write(l+" ");
+            }
+            
+            Console.ReadLine();

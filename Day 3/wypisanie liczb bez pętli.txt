@@ -1,0 +1,35 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace petlaBezPetli
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int a = 1;
+
+            switch (a)
+            {
+                case 1:
+                    //if (a%2==0) //parzyste
+                    //if (a % 2 != 0) //nieparzyste
+                        Console.WriteLine(a);
+                    a++;
+                    if (a <= 100)
+                    {
+                       
+                        goto case 1;
+                    }
+                    else
+                    {
+                        break;
+                    }
+            }
+            Console.ReadLine();
+        }
+    }
+}
